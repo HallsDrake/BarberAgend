@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="icons/css/all.css">
+    <link rel="stylesheet" href="css/RealTest.css">
+
+    <title>Agenda</title>
+
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-3">Agenda</h1>
+            <p class="lead">Uma agenda para mater a organização de atendimentos</p>
+        </div>
+    </div>
+
+    <section class="section">
+        <div class="container">
+            <form action="" method="POST">
+                <div class="form-row">
+                    <div class="col-md-6">
+                        <div id="titular">
+                            <h3><i class="fa fa-plus-square"></i> Novo Agendamento</h3>
+                        </div>
+                        <br>
+                        <input type="text" class="form-control" placeholder="Nome" id="nome">
+                        <br>
+                        <input type="number" class="form-control" placeholder="Número de telefone" id="telefone">
+                        <br>
+                        <input type="date" class="form-control" placeholder="Data" id="data">
+                        <br>
+                        <select type="text" class="form-control" placeholder="Serviços" id="servico">
+                            <option value="cabelo">Cabelo</option>
+                            <option value="barba">Barba</option>
+                            <option value="combo">Combo</option>
+                        </select>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <button type="button" class="btn btn-danger form-control" id="deletar">Excluir</button>
+                            </div>
+                            <div class="col-md-6">
+                                <button type="button" class="btn btn-success form-control" id="salvar">Salvar</button>
+                            </div>
+                        </div>
+                        <br>
+                        <div id="error"></div>
+                    </div>
+                    <div class="col-md-6">
+                        <div id="titular">
+                            <h3><i class="fa fa-exclamation-circle"></i> Calendário</h3>
+                            <div id="lembretes">
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="js/RealTest.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

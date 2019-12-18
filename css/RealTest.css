@@ -1,0 +1,29 @@
+.row {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.lembrete {
+    width: 50%;
+    height: 150px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.jumbotron-fluid {
+    background: #414141;
+    color: white;
+}
+
+textarea {
+    border: 1px solid #000;
+}
+
+#buttonSave {
+    cursor: pointer;
+}
+
+#buttonSave,
+.fa-window-close {
+    cursor: pointer;
+}

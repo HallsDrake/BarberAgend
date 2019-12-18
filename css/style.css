@@ -1,0 +1,24 @@
+    .jumbotron-fluid {
+        background: #414141;
+        color: white;
+    }
+    
+    textarea {
+        border: 1px solid #000;
+    }
+    
+    .lembrete {
+        padding: 0.5em;
+        background-color: #414141;
+        color: white;
+        cursor: pointer;
+    }
+    
+    #buttonSave {
+        cursor: pointer;
+    }
+    
+    #buttonSave,
+    .fa-window-close {
+        cursor: pointer;
+    }
